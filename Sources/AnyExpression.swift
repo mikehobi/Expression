@@ -646,7 +646,7 @@ extension AnyExpression.Error {
     }
 }
 
-extension AnyExpression {
+public extension AnyExpression {
     // Cast a value to the specified type
     static func cast<T>(_ anyValue: Any) -> T? {
         if let value = anyValue as? T {
